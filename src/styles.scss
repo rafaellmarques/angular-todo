@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import "/src/app/styles/typography";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background: #3023ae;
+  background: -moz-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
+  background: -webkit-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
+  background: linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
+  display: flex;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3023ae', endColorstr='#c86dd7', GradientType=1);
+  font-family: $NotoSans;
+  font-weight: 400;
+  height: 100vh;
+  justify-content: center;
+  text-align: center;
+}
