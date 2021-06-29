@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background: linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
+  display: flex;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3023ae', endColorstr='#c86dd7', GradientType=1);
+  font-family: $NotoSans;
+  height: 100vh;
+  justify-content: center;
+}
